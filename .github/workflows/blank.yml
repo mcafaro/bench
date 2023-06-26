@@ -28,4 +28,4 @@ jobs:
       - run: |
           wget https://www.mathworks.com/mpm/glnxa64/mpm
           chmod +x mpm
-          ./mpm install --release=R2023a --products MATLAB Parallel_Computing_Toolbox
+          ./mpm install --release=R2023a --destination=/tmp/matlab --products MATLAB Parallel_Computing_Toolbox
